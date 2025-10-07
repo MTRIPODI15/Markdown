@@ -1,0 +1,57 @@
+# 🧪 Functional Test Case – Login with Valid Credentials
+
+## Test Case ID
+TC_LOGIN_001
+
+## Title
+Login with valid credentials
+
+## Priority
+High
+
+## Preconditions
+- The user is registered
+- The login page is accessible
+
+## Test Steps
+1. Open the browser and go to `https://demoqa.com/login`
+2. Enter a valid email: `user@example.com`
+3. Enter a valid password: `Password123`
+4. Click the "Login" button
+
+## Test Data
+| Field     | Value              |
+|-----------|--------------------|
+| Email     | user@example.com   |
+| Password  | Password123        |
+
+## Expected Result
+- The user is redirected to the homepage
+- A welcome message is displayed
+- The session starts correctly
+
+## Actual Result ✅
+- The user was redirected to the homepage
+- Message displayed: `Welcome, user!`
+- Session token generated: `auth_8f3a2...`
+
+## Screenshot
+![Login Success](https://i.imgur.com/0ZfQZpZ.png)
+
+## Execution Stats
+| Metric             | Value     |
+|--------------------|-----------|
+| Execution Time     | 2.3 sec   |
+| Browser            | Chrome 117 |
+| OS                 | Windows 11 |
+| Test Status        | Passed ✅ |
+
+## Postconditions
+- User is logged in
+- Session is active
+
+## Notes
+> The login process was successful with valid credentials. No errors or delays were found. The UI responded correctly and the session token was stored.
+
+## Status
+**Passed**
