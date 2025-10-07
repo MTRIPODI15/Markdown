@@ -1,4 +1,4 @@
-# 🧪 Functional Test Case – Login with Valid Credentials
+#  Functional Test Case – Login with Valid Credentials
 
 ## Test Case ID
 TC_LOGIN_001
@@ -30,7 +30,7 @@ High
 - A welcome message is displayed
 - The session starts correctly
 
-## Actual Result ✅
+## Actual Result 
 - The user was redirected to the homepage
 - Message displayed: `Welcome, user!`
 - Session token generated: `auth_8f3a2...`
@@ -44,7 +44,7 @@ High
 | Execution Time     | 2.3 sec   |
 | Browser            | Chrome 117 |
 | OS                 | Windows 11 |
-| Test Status        | Passed ✅ |
+| Test Status        | Passed  |
 
 ## Postconditions
 - User is logged in
